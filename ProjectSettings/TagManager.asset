@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Blueberry
+  - Strawberry
+  - Durian
+  - Fruit
   layers:
   - Default
   - TransparentFX

@@ -2104,6 +2104,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "New action map",
+            "id": "b5b36e7e-28fb-4738-9504-4debe0ddffc9",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "0663f385-d6b6-4c84-b92a-763e43fb39d0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "482fa311-fd53-4ee5-b610-514802f5f436",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [

@@ -134,7 +134,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/ARCore/ARCoreSessionRecording.unity
     guid: 5950f406e5177479b89e0c8d9160b0a9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/DebugMenu.unity
     guid: 15456b85ccc6645c8825f7a70ae23ff1
   - enabled: 0
@@ -176,6 +176,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Meta/MetaDisplayRefreshRate.unity
     guid: 07970a1a9455f4309b8e99b1c88daa98
+  - enabled: 1
+    path: Assets/Scenes/ARSwipeTest.unity
+    guid: a3e784ce5cb786a40983f26ca3d1c6fb
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: c52d3bb36b4c86f47af54ab9c7a02589,
       type: 2}

@@ -91,6 +91,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
             }
 
             var tapPosition = pointer.position.ReadValue();
+            Debug.Log($"{nameof(ScreenTapped)}, Tap Pos : {tapPosition}");
 
             if (m_ARRaycastHitEvent != null &&
                 m_RaycastManager.Raycast(tapPosition, s_Hits, m_TrackableType))

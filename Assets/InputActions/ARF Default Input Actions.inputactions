@@ -2194,9 +2194,27 @@
             "id": "55af3146-2a24-492a-95e4-b0a471d5c259",
             "actions": [
                 {
+                    "name": "PrimaryContact",
+                    "type": "Button",
+                    "id": "06ed344d-aeb9-4963-ac03-0325ae7fccb0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PrimaryPosition",
+                    "type": "Value",
+                    "id": "6da6abb9-da2f-45aa-85b5-59fca89e98f7",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
                     "name": "Tap",
                     "type": "Button",
-                    "id": "8033ae14-9be8-4aae-ba3d-917e9a81ca92",
+                    "id": "0a163eca-5fd6-42aa-8468-13d0645ed2a2",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -2205,7 +2223,7 @@
                 {
                     "name": "Position",
                     "type": "Value",
-                    "id": "2bff2fba-cfc1-4335-b6ca-35b2ef767ef4",
+                    "id": "f814526c-8f71-4398-a8ab-b23a51f91044",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -2215,8 +2233,52 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "b6239f3b-e986-433f-b7ca-fe53b9bbed16",
-                    "path": "<Pointer>/press",
+                    "id": "11d645cb-689d-4ebe-b8bd-e03bb2ec9187",
+                    "path": "<Touchscreen>/primaryTouch/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryContact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "08f7c131-b7c8-4498-b7d1-273006dada17",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryContact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6e24a043-8c59-4e25-9de3-6c52279f3dca",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b23955c0-4a5e-4960-9e29-08332453b831",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8da26dff-81a4-4375-9ac5-597040944035",
+                    "path": "<Touchscreen>/Press",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -2226,8 +2288,8 @@
                 },
                 {
                     "name": "",
-                    "id": "34f7a003-7d01-4fed-8336-0e478e6f1262",
-                    "path": "<Pointer>/position",
+                    "id": "ea58c28a-e9cf-46d4-a604-80dac6ee8d2b",
+                    "path": "<Touchscreen>/position",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
